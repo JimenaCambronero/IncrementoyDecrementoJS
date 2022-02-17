@@ -1,0 +1,40 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at 9.31% 90.69%, #c7c0ee 0, #cfbeeb 6.25%, #d6bce8 12.5%, #dcbae3 18.75%, #e2b9de 25%, #e7b7d9 31.25%, #ecb6d4 37.5%, #efb6ce 43.75%, #f2b5c8 50%, #f4b5c2 56.25%, #f5b5bc 62.5%, #f5b5b6 68.75%, #f5b6b1 75%, #f4b7ac 81.25%, #f2b9a7 87.5%, #efbaa3 93.75%, #ecbc9f 100%);
+}
+
+.contenedor{
+    height: 120px;
+    min-width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d8d7f6;
+    border-radius: 12px;
+    box-shadow: o 5px 10 px rgba(0,0,0,0.2);
+}
+
+.contenedor span{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600; 
+    cursor: pointer;
+    user-select: none;
+  
+}
+
+.numero{
+    pointer-events: none;
+}
