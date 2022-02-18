@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+main{
     height: 100vh;
     width: 100%;
     display: flex;
@@ -31,10 +31,44 @@ body{
     font-size: 3em;
     font-weight: 600; 
     cursor: pointer;
-    user-select: none;
-  
+    user-select: none; 
 }
 
 .numero{
     pointer-events: none;
 }
+
+.contenedor-copy{
+    background-color: #f0bac3;   
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+p.copy-parrafo {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    color: black;
+    padding-top: 1em;
+    margin-bottom: 0.1em;
+}
+
+.menu-footer a:hover{
+    color: #e09faa
+} 
+
+.copy-links{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5em;
+}
+
+.iconos{
+        font-size: 1.5em;
+        color: rgb(0, 0, 0);
+        margin: 0 0.5em;
+    }
+
