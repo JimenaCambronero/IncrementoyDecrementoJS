@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
+
 main{
-    height: 80vh;
+    height: 87vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -55,10 +56,6 @@ p.copy-parrafo {
     padding-top: 1em;
     margin-bottom: 0.1em;
 }
-
-.menu-footer a:hover{
-    color: #e09faa
-} 
 
 .copy-links{
     display: flex;
